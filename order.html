@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>สั่งซื้อสินค้า — VERA</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a href="index.html" class="logo" aria-label="VERA หน้าแรก">VERA</a>
+      <nav class="nav-links" aria-label="เมนูหลัก">
+        <a href="index.html">หน้าแรก</a>
+        <a href="product.html">สินค้า</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-head">
+      <div class="container">
+        <h1>สั่งซื้อสินค้า</h1>
+        <span class="rule"></span>
+        <p class="lead">กรอกข้อมูลด้านล่าง ทีมงาน VERA จะติดต่อกลับเพื่อยืนยันคำสั่งซื้อและแจ้งรายละเอียดการชำระเงิน</p>
+      </div>
+    </section>
+
+    <section class="page-body">
+      <div class="form-narrow">
+        <form id="orderForm" class="form-card">
+          <div class="field">
+            <label for="customerName">ชื่อลูกค้า <span class="req">*</span></label>
+            <input class="input" type="text" id="customerName" name="customerName" autocomplete="name" required>
+          </div>
+
+          <div class="field">
+            <label for="contact">เบอร์โทร / Line <span class="req">*</span></label>
+            <input class="input" type="text" id="contact" name="contact" autocomplete="tel" required>
+          </div>
+
+          <div class="field">
+            <label for="items">รายการสินค้า <span class="req">*</span></label>
+            <input class="input" type="text" id="items" name="items" required>
+            <span class="field-hint">ถ้าช่องนี้ว่าง กรุณา<a href="product.html">เลือกสินค้าจากหน้าสินค้า</a>ก่อน</span>
+          </div>
+
+          <div class="field">
+            <label for="total">จำนวนเงินรวม (บาท) <span class="req">*</span></label>
+            <input class="input" type="text" id="total" name="total" inputmode="decimal" required>
+          </div>
+
+          <div class="field">
+            <label for="note">หมายเหตุ</label>
+            <textarea class="textarea" id="note" name="note" rows="3" placeholder="เช่น ที่อยู่จัดส่ง หรือข้อความถึงทีมงาน"></textarea>
+          </div>
+
+          <div class="form-actions">
+            <button type="submit" class="btn btn--solid">ยืนยันสั่งซื้อ</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

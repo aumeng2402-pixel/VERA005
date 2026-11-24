@@ -1,0 +1,42 @@
+[
+  {
+    "id": "vera-001",
+    "name": "Anti-Hair Fall Shampoo",
+    "mood": "fresh",
+    "type": "shampoo",
+    "size": "150 ml",
+    "price": 299,
+    "image": "images/fresh.jpg",
+    "description": "แชมพูสูตรลดผมขาดหลุดร่วงผสานกลิ่นหอมละมุนของดอกซากุระ ช่วยฟื้นบำรุงรากผมให้แข็งแรงพร้อมมอบสัมผัสเบาสบายและสดชื่นตื่นตัวตลอดวัน"
+  },
+  {
+    "id": "vera-002",
+    "name": "Oil Control Shampoo",
+    "mood": "sweet",
+    "type": "shampoo",
+    "size": "150 ml",
+    "price": 299,
+    "image": "images/fresh.jpg",
+    "description": "แชมพูสูตรควบคุมความมันส่วนเกินที่มาพร้อมกลิ่นชาโคลอันเป็นเอกลักษณ์ ช่วยทำความสะอาดหนังศีรษะอย่างล้ำลึกพร้อมให้ความรู้สึกอบอุ่นอ่อนโยนและสบายใจ"
+  },
+  {
+    "id": "vera-003",
+    "name": "Damage Repair Shampoo",
+    "mood": "confident",
+    "type": "shampoo",
+    "size": "150 ml",
+    "price": 299,
+    "image": "images/sweet.jpg",
+    "description": "แชมพูสูตรฟื้นฟูผมแห้งเสียผสานกลิ่นส้มสดชื่น ช่วยคืนความเงางามมีชีวิตชีวาให้เส้นผมดูสุขภาพดี สร้างลุคที่สะอาดเนี้ยบและน่าเชื่อถือในทุกโอกาส"
+  },
+  {
+    "id": "vera-004",
+    "name": "Dandruff Care Shampoo",
+    "mood": "romance",
+    "type": "shampoo",
+    "size": "150 ml",
+    "price": 299,
+    "image": "images/sweet.jpg",
+    "description": "แชมพูสูตรขจัดรังแคผสานความเย็นสดชื่นของกลิ่นมินท์ ช่วยปลอบประโลมหนังศีรษะให้สะอาดมั่นใจ พร้อมเผยเสน่ห์ความหอมที่อบอุ่นและน่าจดจำ"
+  }
+]
